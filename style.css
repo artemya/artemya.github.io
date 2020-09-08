@@ -1,0 +1,25 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.h-tags-style {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li, p {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center {
+    text-align: center;
+}
+
+table {
+    background-color: pink;
+}
