@@ -1,75 +1,92 @@
 <!DOCTYPE html>
 <html lang="ukr">
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <table>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
         <header>
-            <tr>
-                <td colspan="1" >
+            <!-- <section> -->
+            <div class="header">
+                <div class="">
                     <img src="interlink.png">
-                    <h1 class="h-tags-style">Artem Yaremenko</h1>
-                    <h2 class="h-tags-style">Interlink intern</h2>
-                </td>
-                <td colspan="2" >
-                    <p class="center">artemya@tahometer.com</p>
-                    <p class="center">(098)-294-47-64</p>
-                </td>
-            </tr>
+                    <h3 class="tags-style">Artem Yaremenko</h3>
+                </div>
+                <div class="tags-style">
+                    <p>artemya@tahometer.com</p>
+                    <p>(098)-294-47-64</p>
+                </div>
+            </div>
+            <!-- </section> -->
         </header>
+
         <main>
-            <tr>
-                <td colspan="1" >  
-                    <h3 class="h-tags-style">Profile</h3>
-                </td>
-                <td colspan="2" >
-                    <p>I am currently going an internship at Interlink. I am studing such technologies as ASP .NET Core, Docker, Git, HTML and CSS.</p>
-                </td>  
-            </tr>
-            <tr>
-                <td colspan="1" >  
-                    <h3 class="h-tags-style">Skills</h3>
-                </td>
-                <td colspan="1" >
-                    <p>Can build easy REST-API app.</p>
-                </td>  
-                <td colspan="1" >
-                    <p>Can use HTML/CSS.</p>
-                </td>  
-            </tr>
-            <tr>
-                <td colspan="1" >  
-                    <h3 class="h-tags-style">Technical</h3>
-                </td>
-                <td colspan="1" >
-                    <h3 class="h-tags-style center">FrontEND</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                </td>  
-                <td colspan="1" >
-                    <h3 class="h-tags-style center">BackEND</h3>
-                    <ul>
-                        <li>C#</li>
-                        <li>ASP .NET Core</li>
-                    </ul>
-                </td> 
-            </tr>
+            <div class="main">
+                <div class="row">
+                <section>
+                    <div class="main-column">
+                        <div class="col-title">
+                            <h3 class="tags-style">Profile</h3>
+                        </div>
+                        <div class="col">
+                            <p>I am currently going an internship at Interlink. I am studing such technologies as ASP .NET Core, Docker, Git, HTML and CSS.</p>
+                        </div>
+                    </div>
+                
+                </section>
+                <section>
+                    <div class="main-column">
+                        <div class="col-title">
+                            <h3 class="tags-style">Skills</h3>
+                        </div>
+                        <div class="col">
+                            <p>Can build easy REST-API app. Can use HTML/CSS.</p>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+                    <section>
+                        <div class="col2">
+                            <h3 class="">Technical</h3>
+                        </div>
+                        <div class="">
+                            <table class="col2">
+                                <tr>
+                                    <td>
+                                        <h3 class="h-tags-style">FrontEND</h3>
+                                    </td>
+                                    <td>
+                                        <h3 class="h-tags-style">BackEND</h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li>C#</li>
+                                            <li>ASP .NET Core</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
         </main>
-        <footer>
-            <tr>
-                <td colspan="1">
-                    <p>Facebook:</p>
-                </td>
-                <td colspan="2" class="center">
+        <!-- <footer> 
+            <section>
+                <div class="footer">
+                    <p class="h-tags-style">Facebook:</p>
                     <a href="https://www.facebook.com/artem.yaremenko.3/">My profile</a>
-                </td>
-            </tr>
+                </div>
+            </section>
         </footer>
-    </table>
+    </div> -->
 </body>
 </html>
