@@ -1,4 +1,7 @@
-body { 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 img { 
@@ -6,12 +9,20 @@ img {
     height: 60px;
     width: 50px;
 }
-
-.main-column {
-    display: flex;
-    margin-right: 10%;
- 
-    
+main {
+    margin-top: 84px; 
+}
+.nav-text {
+    color: white;
+}
+.column {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 1%;
+}
+.column2 {
+    float: left;
 }
 .header {
     background-color: #333;
@@ -22,49 +33,83 @@ img {
     display: flex;
     justify-content: space-between;
 }
-.col {
-    padding-left: 2%;
-    padding-bottom: 1%;
+
+footer {
+    background-color: #333;
+    position: relative;
+    height: 70px;
 }
-.col2 {
-    display:flex;
-    justify-content: center;
-}
-.col-title {
-    width: 100px;
-}
-td {
-    padding: 10px;
+.after-box {
+    clear: left;
 }
 
-.row {
-    padding-left: 20%;
-    padding-right: 10%; 
-    width:auto;
-    background-color: #333;
-    opacity: 0.6;
-    color: white;
-    border-radius: 10px;
-}
-.main {
-    margin-top: 70px; 
-    padding: 40px;
-    
-}
-.footer {
-    width: 100%;
-    text-align: center;
-    height: 120px;
-}
-.tags-style {
-    color: white;
-}
 td {
     padding: 15px;
     border: 1px solid #ddd;
 }
 table, td {  
-
+    margin: 5px;
     text-align: left;
     border-collapse: collapse;
-  }
+}
+a {
+    color: white;
+}
+a:hover {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    height:100%;
+}
+aside {
+    background: dodgerblue;
+    /* flex: 1 1 auto; */
+    min-width: 200px;
+    margin-top: 84px; 
+    color: powderblue;
+    font-family: Georgia, sans-serif;
+    font-size: 1.3rem;
+  
+    /* position:relative; */  
+}
+main {
+    /* flex: 1 1 auto;
+    overflow: auto; */
+    max-height: 100%;
+}
+.aside_div {
+    margin-top: 80px; 
+    width: 80%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+.position-year {
+    position:absolute;
+    bottom: -10px;
+    right: 10px;
+    color: white;
+}
+
+.borders {
+    border-top: 1px dotted blue;
+}
+side {
+    margin-top:84px;
+}
+
+.footer {
+    margin: 20px;
+}
+.href {
+    position: relative;
+    
+}
+.facebook {
+    position: absolute;
+    right:-10px;
+    top:-10px;
+}
