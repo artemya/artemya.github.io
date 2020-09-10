@@ -21,9 +21,7 @@ main {
     height: 100px;
     margin: 1%;
 }
-.column2 {
-    float: left;
-}
+
 .header {
     background-color: #333;
     overflow: hidden;
@@ -65,21 +63,16 @@ a:hover {
 }
 aside {
     background: dodgerblue;
-    /* flex: 1 1 auto; */
     min-width: 200px;
     margin-top: 84px; 
     color: powderblue;
     font-family: Georgia, sans-serif;
     font-size: 1.3rem;
-  
-    /* position:relative; */  
 }
 main {
-    /* flex: 1 1 auto;
-    overflow: auto; */
     max-height: 100%;
 }
-.aside_div {
+.nav_div {
     margin-top: 80px; 
     width: 80%;
     -moz-box-sizing: border-box;
